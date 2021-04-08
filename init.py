@@ -1,9 +1,8 @@
 """
 Filename: init.py
-Usage: This script will measure different objects in the frame using a reference object of known dimension. 
-The object with known dimension must be the leftmost object.
-Author: Shashank Sharma
+识别图片中物体，标记各种特征点、最大内接矩形，最小外接矩形，根据标记物判断尺寸。 标记物必须位于左上角
 """
+
 from scipy.spatial.distance import euclidean
 from imutils import perspective
 from imutils import contours
