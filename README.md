@@ -2,8 +2,7 @@
 # openCV_measuring_Tool
 Measuring dimensions and degrees examples   with python and openCV
 =======
-# Measure size of objects in an image using OpenCV 
-=======
+
 
 ## Packages : 包要求
 Python 3
